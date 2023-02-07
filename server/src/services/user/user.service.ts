@@ -1,7 +1,7 @@
 import {UserRepository} from "@/repositories/repositories";
 import {type UserResponseDto, type UserSignUpDto, UserWithPassword} from "@/common/types/types";
 import {User} from "@/db/entities/user.entity";
-import { UserProductsDTO } from "shared/common/types/user/user-products-dto.type";
+import {UserProductsDTO} from "@/common/types/user/user";
 
 class UserService {
     constructor(private repository: UserRepository) {

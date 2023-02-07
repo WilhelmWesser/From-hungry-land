@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction} from "express";
 import {Product} from "@/db/entities/product.entity";
 import {ProductService, authService} from "@/services/services";
-import {ProductQueryOptionType} from "shared/common/types/types";
+import {ProductQueryOptionType} from "@/common/types/types";
 
 export class ProductController {
   private readonly productService:ProductService

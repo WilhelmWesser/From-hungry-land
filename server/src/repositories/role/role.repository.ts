@@ -1,6 +1,6 @@
 import {Repository} from "typeorm";
 import {Role} from "@/db/entities/role.entity";
-import {Roles} from "shared/common/enums/role/roles.enum";
+import {Roles} from "@/common/enums/role/role";
 
 class RoleRepository {
     constructor(private dbRepository: Repository<Role>) {}

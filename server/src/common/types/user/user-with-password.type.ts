@@ -1,4 +1,5 @@
-import {RoleResponseDto} from "shared/common/types/role/role-response-dto.type";
+import {RoleResponseDto} from "@/common/types/role/role";
+
 
 type UserWithPassword = {
     id: number

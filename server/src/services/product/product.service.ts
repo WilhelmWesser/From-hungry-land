@@ -3,7 +3,7 @@ import {productTagService} from "@/services/services";
 import {ProductRepository} from "@/repositories/product/product.repository";
 import { FindOptionsWhere, In, ILike } from "typeorm";
 import { userService } from "@/services/services";
-import { ProductQueryOptionType } from "shared/common/types/types";
+import {ProductQueryOptionType} from "@/common/types/types";
 
 export class ProductService {
   private readonly repo:ProductRepository

@@ -3,10 +3,9 @@ import {User} from "@/db/entities/user.entity";
 import {UserResponseDto, UserSignUpDto, UserWithPassword} from "@/common/types/types";
 import {AlreadyExistsException} from "@/common/exceptions/user/already-exists.exception";
 import {RoleRepository} from "@/repositories/role/role.repository";
-import {Roles} from "shared/common/enums/role/roles.enum";
-import {ValidationExceptionMessages} from "shared/common/enums/exception/validation/validation-exception-message.enum";
-import { UserProductsDTO } from "shared/common/types/user/user-products-dto.type";
 import { Product } from "@/db/entities/product.entity";
+import {UserProductsDTO} from "@/common/types/user/user";
+import {Roles, ValidationExceptionMessages} from "@/common/enums/enums";
 
 class UserRepository {
     constructor(private dbUserRepository: Repository<User>, private roleRepository: RoleRepository) {}
