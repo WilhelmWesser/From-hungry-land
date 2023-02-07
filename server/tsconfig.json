@@ -9,7 +9,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "outDir": "./build",
-    "rootDirs": ["./src", "../shared"],
+    "rootDirs": ["./src"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
