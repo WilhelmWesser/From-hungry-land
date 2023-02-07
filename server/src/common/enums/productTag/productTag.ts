@@ -1,1 +1,3 @@
-export {ProductTagRoutes} from "shared/common/enums/enums"
+export enum ProductTagRoutes {
+    GETALL = "/"
+}

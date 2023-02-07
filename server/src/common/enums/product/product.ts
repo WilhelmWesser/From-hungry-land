@@ -1,1 +1,4 @@
-export {ProductRoutes} from "shared/common/enums/enums"
+export enum ProductRoutes{
+    GET_BY_TAG_ID = "/:id",
+    GETALL = "/"
+}

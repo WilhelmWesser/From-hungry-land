@@ -1,1 +1,6 @@
-export {Roles} from 'shared/common/enums/enums'
+enum Roles {
+    USER = "user",
+    ADMIN = "admin"
+}
+
+export {Roles}

@@ -1,1 +1,7 @@
-export {AuthRoutes} from 'shared/common/enums/enums'
+enum AuthRoutes {
+    SIGN_IN = "/signIn",
+    SIGN_UP = "/signUp",
+    CURRENT_USER = "/currentUser"
+}
+
+export {AuthRoutes}

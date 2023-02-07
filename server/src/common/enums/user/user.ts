@@ -1,1 +1,4 @@
-export {UserRoutes} from 'shared/common/enums/enums'
+export enum UserRoutes {
+    ADD_PRODUCTS = "/add-products/:productId",
+    REMOVE_PRODUCTS = "/remove-products/:productId",
+}

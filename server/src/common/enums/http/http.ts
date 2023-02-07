@@ -1,1 +1,7 @@
-export {StatusCode} from 'shared/common/enums/enums'
+enum StatusCode {
+    NOT_FOUND = 404,
+    BAD_REQUEST = 400,
+    UNAUTHORIZED = 401
+}
+
+export {StatusCode}
